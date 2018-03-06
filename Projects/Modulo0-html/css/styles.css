@@ -1,0 +1,18 @@
+body {
+    background: #f1f4f7;
+}
+#bloque1 {
+    background: #8B6EB2;
+}
+#bloque2 {
+    background:#D5B7FF;    
+}
+#bloque3 {
+    background: #E4D0FF;    
+}
+#title_head {
+    font-size: 2.5em;
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+}
