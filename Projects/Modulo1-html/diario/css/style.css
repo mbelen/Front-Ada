@@ -68,3 +68,15 @@ epigrafe {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
+#ruta-navegacion {
+    list-style: none;
+}
+#ruta-navegacion li{
+    display: inline-flex;
+    justify-content: flex-start;
+    margin: 0 5px;
+}
+#ruta-navegacion li a {
+    text-decoration: none;
+    color:lightskyblue;
+}
