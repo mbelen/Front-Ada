@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Form test</title>
+</head>
+<body>
+    <form action="data.php" class="form-one">
+        <fieldset class="marco">
+            <div>
+                <label for="name">Nombre: </label>
+                <input type="text" name="name" placeholder="Ingrese su nombre">
+            </div>
+            <div>
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" placeholder="Ingrese su apellido">
+            </div>
+            <div>
+                <label for="mail">Email: </label>
+                <input type="email" name="mail" placeholder="Ingrese su mail">
+            </div>
+            <div>
+                <div>
+                    <label for="genero">Género</label>
+                </div>
+
+                <label for="femenino">Femenino</label>
+                <input type="radio" name="genre" value="Femenino">
+
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="genre" value="Masculino">
+            </div>
+            <div>
+                <div>
+                    <label for="nac">Nacionalidad</label>
+                </div>
+                
+                <select name="nac" id="nac1">
+                    <option value="arg">Argentina</option>
+                    <option value="vez">Venezolana</option>
+                    <option value="col">Colombiana</option>
+                    <option value="per">Peruana</option>
+                    <option value="uru">Uruguaya</option>
+                    <option value="chi">Chilena</option>
+                </select>
+            </div>
+            <div>
+                <div>
+                    <label>Temas de Interés</label>
+                </div>
+                
+                <input type="checkbox" name="infra" value="infra"> Infraestructura<br>
+                <input type="checkbox" name="developer" value="developer"> Desarrollo Web<br>
+                <input type="checkbox" name="mobile" value="Mobile"> Desarrollo Mobile<br>
+           </div>
+           <div>
+                <input type="checkbox" name="terms" value=""> Acepto Terminos y Condicions<br>
+           </div>
+           <div>
+               <button type="submit">Cancelar</button>
+               <button type="submit" class="btn-submit">Aceptar</button>
+           </div>
+        </fieldset>
+    </form>
+</body>
+</html>
