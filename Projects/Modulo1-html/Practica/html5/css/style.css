@@ -1,0 +1,50 @@
+header {
+    width: 100%;
+}
+.logo-icon {
+    width: 65px;
+    height: 65px;
+    padding: 15px 10px;
+    margin-left: 0;
+}
+
+nav {
+    display: inline-block;
+    float: left;
+    position: relative;
+    margin: 20px;
+}
+.top {
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+.menu {
+    list-style: none;
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    display: inline-block;
+    padding: 1em;
+    background: lightsalmon;
+    border: 2px solid lightsalmon;
+    border-radius: 2px;
+    margin-right: .5em;
+}
+.menu li:hover {
+    display: inline-block;
+    padding: 1.1em;
+    background: salmon;
+    border: 2px solid salmon;
+    border-radius: 2px;
+    margin-right: .5em;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
