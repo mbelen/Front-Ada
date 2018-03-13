@@ -1,50 +1,48 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     background: #cecece;
 }
 .container {
-    margin: auto;
-    position: relative;
+    margin: 0 auto;
     width: 75%;
+    position: relative;
 }
 figure, nav, .banner, aside, article, footer {
     background: darkgrey;
-    margin: 10px 15px;
+    margin: 10px;
 }
 figure{ 
     height: 50px;
-    margin: 10px; 
 }
 nav {
     height: 35px;
-    margin: 10px;
 }
 .banner {
     height: 200px;
-    margin: 10px;
 }
 .content {
     height: 450px;
     margin: 10px;
+    position: relative;
 }
 aside {
     height: inherit;
-    width: 35.5%;
-    margin: 0;
+    width: 39%;
     float: left;
-    padding: 0 10px;
+    margin: 0;
 }
 article{
     height: inherit;
     width: 60%;
-    margin: 0;
     float: right;
-    padding: 0 10px;
+    margin: 0;
 }
 footer{
     height: 200px;
-    margin: 10px;
+    clear: both;
+    top: 400px;
 }
