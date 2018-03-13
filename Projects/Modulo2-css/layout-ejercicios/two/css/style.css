@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: lightcyan;
+}
+.container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+nav, article, footer {
+    background: lightskyblue;
+}
+header, .main-mini-boxes, .main-big-boxes {
+    margin-bottom: 10px;
+}
+figure {
+    margin: 0;
+}
+nav {
+    height: 150px;
+}
+nav p {
+    text-align: right;
+    font-size: 2em;
+    padding: 20px;
+}
+.main-mini-boxes article {
+    width: 24.7%;
+    height: 200px;
+    display: inline-block;
+
+}
+.main-big-boxes article {
+    width: 33%;
+    height: 350px;
+    display: inline-block;
+}
+.main-big-boxes p {
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 2em;
+}
+footer{
+    clear: both;
+    height: 200px;
+    position: relative;
+    bottom: 0;
+}
