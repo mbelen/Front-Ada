@@ -7,40 +7,39 @@
     width: 75%;
     margin: auto;
     display: block;
-    position: relative;
 }
 header{
     background: black;
-    display: flex;
-    justify-content: space-between ;
-    flex-flow: nowrap;
-    height: 100px;
-    margin: 0 20px 20px 20px;
+    display: block;
+    text-align: center;
+    padding: 10px;
 }
 header img, .foot img, #banner img {
     width: 70px;
     margin: 10px 20px;
 }
 header h1, header img {
-    display: inline-flex;
-    justify-content: space-between;
+    display: inline-block;
 }
 h1{
     color: white;
     font-family: sans-serif;
     margin: 20px
 }
+nav {
+    margin: 15px 0 0 0;
+    width: 100%;
+}
 .menu {
-    display: flex;
-    justify-content: center;
+    display: block;
     list-style: none;
+    text-align: center;
 }
 .menu li {
-    padding: 20px;
+    padding: 12px;
     background: orange;
-    display: inline-flex;
-    justify-content: space-between;
-    margin: 0 1em;
+    display: inline-block;
+    margin: 0 .5em;
 }
 .menu li a {
     color: white;
@@ -49,32 +48,95 @@ h1{
 }
 .main-box {
     width: 100%;
-    display: inline-flex;
-    justify-content: space-between;
+    display: inline-block;
+    margin: 15px 0;
 }
 .box1 {
     background: fuchsia;
-    width: 50%;
-    padding: 20%;
-    margin: 20px;
+    width: 49.6%;
+    height: 400px;
+    display: inline-block;
 }
 #banner {
     background: blue;
     height: 80px;
-    margin: 20px;
 }
 #banner img {
     float: right;
 }
 .box2 {
     background: green;
-    width: 300px;
+    width: 33%;
     padding: 10%;
-    margin: 20px;
+    display: inline-block;
 }
 footer{
     background: yellow;
     height: 100px;
-    margin: 20px;
-    margin-bottom: 0;
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+    header{
+        height: 65px;
+        padding: 0;
+    }
+    header img {
+        width: 10%;
+        margin: 5px;
+    }
+    h1 {
+        font-size: 1.5em;
+        margin: 0px;
+    }
+    nav {
+        position: relative;
+        float: right;
+    }
+    .menu {
+        display: block;
+        position: fixed;
+        right: 0;
+        top: 20%;
+    }
+    .menu li {
+        padding: 10px;
+        display: block;
+        margin: 0;
+    }
+    .menu li a {
+        font-size: 18px;
+    }
+    .main-box {
+        width: auto;
+        display: block;
+        margin: 20px 0;
+    }
+    .box1 {
+        width: 100%;
+        clear: both;
+    }
+    #right {
+        display: none;
+    }
+    .main-box .box2{
+        display: none;
+    }
+    footer {
+        height: 65px;
+    }
+    .foot img {
+        width: 50px;
+        margin: 20px;
+    }
+}
+@media screen and (max-width:992px) {
+    
+}
+@media screen and (max-width:1200px) {
+    
 }
