@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 100px;
+    padding: 20px;
+}
+.breadcrumbs {
+    list-style: none;
+}
+.breadcrumbs li {
+    float: left;
+    margin: 1em;
+}
+.breadcrumbs li a{
+    text-decoration: none;
+}
+.breadcrumbs li:last-child a {
+    color: darkgrey;
+}
+nav img {
+    width: 50px;
+    float: right
+}
+.main-content {
+    position: relative;
+    float: left;
+}
+figure {
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+figure img {
+    width: 300px;
+    height: 300px;
+}
+figcaption {
+    text-align: center;
+    padding: 5%;
+    font-weight: lighter;
+    font-size: 1.2em;
+    color: darkgrey;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+
+}
+@media screen and (min-width:320px) and (max-width:768px){
+    header {
+        height: 80px;
+        padding: 10px;
+    }
+    nav img {
+        width: 30px;
+    }
+    .breadcrumbs li {
+        float: left;
+        margin: .5em;
+    }
+    figure {
+        margin: 10px;
+        text-align: center;
+        float: none;
+    }
+    figure img {
+        width: 180px;
+        height: 180px;
+    }
+    figcaption {
+        padding: 5px;
+        font-size: 1em;
+        letter-spacing: .5px;
+    
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    header {
+        height: 90px;
+        padding: 15px;
+    }
+    .breadcrumbs li {
+        float: left;
+        margin: .8em;
+    }
+    nav img {
+        width: 40px;
+    }
+    figure {
+        margin: 15px;
+        text-align: center;
+        float: none;
+    }
+    figure img {
+        width: 200px;
+        height: 200px;
+    }
+    figcaption {
+        padding: 15px;
+        font-size: 1.2em;
+        letter-spacing: 1px;
+    
+    }
+}
